@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap');
+
+:root {
+    --primary-color: #F16718;
+    --primary-hover-color: #FF9B62;
+    --secondary-color: #162542;
+    --secondary-hover-color: #7B8BAD;
+    --gray: #E8EFF2;
+    --white: #FFFFFF;
+
+    --font-family: 'Barlow', sans-serif;
+    --font-black: 900;
+    --font-medium: 500;
+
+    --title-size1: 3.5em;
+    --title-size2: 2em;
+    --title-size3: 1.5em;
+    --p-size: 1em;
+
+    --title-line-height1: 1;
+    --title-line-height2: 1.125;
+    --title-line-height3: 1.167;
+    --p-line-height: 1.625;
+
+    --border-radius1: 8px;
+    --border-radius3: 16px;
+    --border-radius3: 20px;
+
+}
+
+body {
+    background: var(--white);
+    font-family: var(--font-family);
+    color: var(--secondary-hover-color);
+    font-weight: var(--font-medium);
+    line-height: var(--p-line-height);
+    font-size: var(--p-size);
+}
+
+/* Composition */
+
+/* Utilities */
+
+/* Block */
+h1, h2, h3 {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: var(--font-black);
+}
+
+h1 {
+    font-size: var(--title-size1);
+    line-height: var(--title-line-height1);
+}
+
+h2 {
+    font-size: var(--title-size2);
+    line-height: var(--title-line-height2);
+}
+
+h3 {
+    font-size: var(--title-size3);
+    line-height: var(--title-line-height3);
+}
+
+/* Exception */
